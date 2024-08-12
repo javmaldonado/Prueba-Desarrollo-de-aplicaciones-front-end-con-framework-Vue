@@ -1,7 +1,9 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/contador">Ejercicio-1 Contador</router-link> |
+    <router-link to="/about">Ejercicio-2 About</router-link> |
+    <router-link to="/home">Ejercicio-2 Home</router-link> |
+    <router-link to="/parentchild">Ejercicio-3 ParentChild</router-link> 
   </nav>
   <router-view/>
 </template>
